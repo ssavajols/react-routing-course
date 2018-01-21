@@ -1,5 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { AppClient } from './app.client';
+import { AppClientHash } from './app.client.hash';
 
-ReactDOM.render(<AppClient />, document.getElementById('app'));
+ReactDOM.render(<AppClientHash />, document.getElementById('app'));
